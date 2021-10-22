@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  max-width: 30%;
+  padding: 10px;
+  background-color: #323f4b;
+}
+
+.card-img {
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+}
+
+.event-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+  margin: 10px;
+}
+
+.location {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0px;
+  padding: 10px;
+}
+
+.button {
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  padding: 0px;
+  background-color: transparent;
+  margin: 0px;
+}
+
+.active {
+  border: 2px solid #2dd4bf;
+  border-radius: 10px;
+}
